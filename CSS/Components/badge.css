@@ -1,0 +1,21 @@
+.badge{
+    margin-left: 2rem;
+    position: relative;
+}
+
+.badge .icon{
+    color: black;
+}
+
+.badge .label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: teal;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    right: -0.5rem;
+    top: -0.5rem;
+}
