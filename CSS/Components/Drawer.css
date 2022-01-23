@@ -42,10 +42,12 @@
     align-items: center;
     padding: 1rem;
     cursor: pointer;
+    border:none;
+    background-color: white;
 }
 
 .sidebar-items .side-item:focus{
-    background-color:teal;
+    background-color:rgb(212, 241, 241);
 }
 
 .sidebar-items .side-item .side-label{

@@ -1,0 +1,28 @@
+.chip{
+    width: 100%;
+}
+
+.chip .chip-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ecf0f1;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.chip .chip-container .chip-item{
+    margin: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    background-color: #bdc3c7;
+    border-radius: 10rem;
+    cursor: pointer;
+}
+
+.chip .chip-container .chip-item:focus{
+    background-color: blue;
+}
+
+.chip .chip-container .chip-item .cross{
+    color: #7f8c8d;
+    margin-left: 0.4rem;
+}

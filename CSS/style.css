@@ -7,10 +7,28 @@
 @import url("./Components/badge.css");
 @import url("./Components/tab.css");
 @import url("./Components/snackbar.css");
+@import url("./Components/chips.css");
 
 *{
     margin: 0;padding: 0;box-sizing: border-box;
 }
+
+html{
+    font-size: 100%;  
+}
+
+@media(max-width:998px){
+    html{
+        font-size: 88%;
+    }
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 72%;
+    }
+}
+
 body{
     font-family: "Open Sans", "Helvetica", "sans-serif";
 }
