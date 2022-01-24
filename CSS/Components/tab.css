@@ -1,45 +1,44 @@
-.tab-component{
-    margin: 2% 10%;
-    border:1px solid grey;
-    padding: 2rem;
-    border-radius: 1rem;
-    display: flex;
-    flex-wrap: wrap;
+.tab-wrapper{
+    
 }
 
-.tab-component .tabs{
-    display: flex;
-    flex-wrap: wrap;
-}
-.tab-component .tabs input[type="radio"]{
-    display: none;
+.tab-wrapper .tab-header{
+    background-color: #d3f1f1;
 }
 
-.tab-component .tabs label{ 
-    margin: 1rem 0;
-    padding:0.5rem;
-    color: #535c68;
-    cursor: pointer;
-    transition: border-width 0.5s ease-in-out; 
-    font-size: 1.5rem;
-    order: -1;
-    min-width: 10%;
-    text-align: center;
-}
-
-.tab-content{
-    margin: 1rem;
+.tab-wrapper .tab-header .tab{
+    font-size: 1.3rem;
     padding: 1rem;
-    font-size: 1rem;
+    margin: 0.2rem 1rem;
+    margin-left: rem;
+    background-color: #d3f1f1;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.tab-wrapper .tab-contents{
+    margin: 1rem;
+} 
+
+.tab-wrapper .tab-contents .tab-content-header{
+    margin: 1rem;
+}
+
+.tab-wrapper .tab-contents .tab-content-info{
+    padding: 1rem;
+    
+}
+
+.tab-wrapper .tab-contents .tab-content{
     display: none;
 }
 
-.tabs input[type="radio"]:checked + label + .tab-content{
+.tab-wrapper .tab-header .active-tab{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.tab-wrapper .tab-contents .active-content{
     display: block;
 }
-
-.tabs input[type="radio"]:checked + label{
-    background-color: #dff9fb;
-    border-bottom: 2px solid teal;
-}
-

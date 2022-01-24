@@ -10,6 +10,7 @@
     width: 100%;
     height: 50vh;
     height: 70vh;
+    margin: 1rem;
 }
 
 .sidebar{
@@ -85,4 +86,15 @@
 
 .main-content .info{
     padding: 1rem;
+}
+
+/* Permanent sidebar  */
+
+.permanent-sidebar{
+    display: flex;
+}
+
+/* Dismissable Sidebar  */
+.dismissable-sidebar{
+    display: none;
 }

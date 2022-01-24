@@ -1,11 +1,11 @@
 var drawerBtn = document.querySelector(".drawer-btn")
-var sidebar = document.querySelector(".sidebar")
+var dismissableSidebar = document.querySelector(".dismissible-sidebar")
 var sidebarItems = document.querySelector(".sidebar-items")
 
 drawerBtn.addEventListener("click", ()=>{
-    if(sidebar.style.display === "none"){
-        sidebar.style.display = "block"
+    if(dismissableSidebar.style.display === "none"){
+        dismissableSidebar.style.display = "flex"
     }else{
-        sidebar.style.display = "none"
+        dismissableSidebar.style.display = "none"
     }
 })
