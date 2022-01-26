@@ -8,6 +8,7 @@
 @import url("./Components/tab.css");
 @import url("./Components/snackbar.css");
 @import url("./Components/chips.css");
+@import url("./Components/dialogbox.css");
 
 *{
     margin: 0;padding: 0;box-sizing: border-box;

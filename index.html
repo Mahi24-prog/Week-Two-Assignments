@@ -338,7 +338,8 @@
         <div class="component">
             <div class="tab-wrapper">
                 <div class="tab-header">
-                    <button class="tab active-tab" id="tab1" onclick="showtabContent(event,'tab1-content')">Tab1</button>
+                    <button class="tab active-tab" id="tab1"
+                        onclick="showtabContent(event,'tab1-content')">Tab1</button>
                     <button class="tab" id="tab2" onclick="showtabContent(event,'tab2-content')">Tab2</button>
                     <button class="tab" id="tab3" onclick="showtabContent(event,'tab3-content')">Tab3</button>
                 </div>
@@ -350,11 +351,42 @@
                     </div>
                     <div class="tab-content" id="tab2-content">
                         <h3 class="tab-content-header">Tab2 Content</h3>
-                        <p class=" tab-content-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione aut itaque repudiandae impedit culpa iste corrupti perspiciatis, suscipit quae fugiat optio. Ipsum quaerat quis, illum quasi nobis modi esse, voluptatibus minima tempore soluta quos odio nisi aliquid laborum vero. Repellendus necessitatibus reiciendis nisi ipsa voluptates quo porro eos veritatis provident placeat dolor nesciunt aspernatur quos, ipsum vel architecto. Quasi, at?</p>
+                        <p class=" tab-content-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                            aut itaque repudiandae impedit culpa iste corrupti perspiciatis, suscipit quae fugiat optio.
+                            Ipsum quaerat quis, illum quasi nobis modi esse, voluptatibus minima tempore soluta quos
+                            odio nisi aliquid laborum vero. Repellendus necessitatibus reiciendis nisi ipsa voluptates
+                            quo porro eos veritatis provident placeat dolor nesciunt aspernatur quos, ipsum vel
+                            architecto. Quasi, at?</p>
                     </div>
                     <div class="tab-content" id="tab3-content">
                         <h3 class="tab-content-header">Tab3 Content</h3>
-                        <p class=" tab-content-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum totam perspiciatis ipsam libero velit porro a? Reiciendis similique fuga iste maiores, ad temporibus recusandae minima, natus minus veritatis tenetur ab harum vero ullam delectus. Autem nobis veritatis mollitia eius. Doloribus beatae dolor error officia aspernatur quos odit. Nesciunt tenetur eligendi magnam illo exercitationem temporibus quae minima enim commodi illum possimus dicta earum delectus dignissimos aliquid, mollitia vel voluptas? Voluptatum nihil esse facilis voluptas quas. Incidunt deleniti beatae expedita consequuntur deserunt.</p>
+                        <p class=" tab-content-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+                            totam perspiciatis ipsam libero velit porro a? Reiciendis similique fuga iste maiores, ad
+                            temporibus recusandae minima, natus minus veritatis tenetur ab harum vero ullam delectus.
+                            Autem nobis veritatis mollitia eius. Doloribus beatae dolor error officia aspernatur quos
+                            odit. Nesciunt tenetur eligendi magnam illo exercitationem temporibus quae minima enim
+                            commodi illum possimus dicta earum delectus dignissimos aliquid, mollitia vel voluptas?
+                            Voluptatum nihil esse facilis voluptas quas. Incidunt deleniti beatae expedita consequuntur
+                            deserunt.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- DialogBox Component  -->
+        <h2 class="component-header">Tab</h2>
+        <div class="dialogbox-component">
+            <div class="dialogbox-btns">
+                <button class="dialogbox-btn active"
+                        onclick="showDialogbox(event,'alert-dialogbox')"
+                >OPEN ALERT DIALOG</button>
+            </div>
+            <div class="dialogbox" id="alert-dialogbox">
+                <div class="wrapper">
+                    <h3 class="dialog-header">Dialog header</h3>
+                    <div class="dialog-body">Dialog body text</div>
+                    <div class="dialog-footer">
+                        <button class="btn-in-dialogbox" onclick="closeDialog()">ACTION 1</button>
+                        <button class="btn-in-dialogbox" onclick="closeDialog()">ACTION 2</button>
                     </div>
                 </div>
             </div>
@@ -365,6 +397,7 @@
     <script src="./JS/Drawer.js"></script>
     <script src="./JS/snackbar.js"></script>
     <script src="./JS/tab.js"></script>
+    <script src="./JS/dialogbox.js"></script>
 </body>
 
 </html>

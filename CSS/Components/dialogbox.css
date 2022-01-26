@@ -1,0 +1,62 @@
+.dialogbox-component{
+    margin: 2% 10%;
+    border:1px solid grey;
+    padding: 2rem;
+    border-radius: 1rem;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+
+.dialogbox-btns .dialogbox-btn{
+    margin: 1rem;
+    padding: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.dialogbox-component .dialogbox{
+    display: none;
+    transform: translateX(40%) translateY(-20%);
+}
+
+.dialogbox-component .dialogbox .wrapper{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    border: 1px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 20rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.dialogbox-component .dialogbox .wrapper .dialog-header{
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.dialogbox-component .dialogbox .wrapper .dialog-body{
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.dialogbox-component .dialogbox .wrapper .dialog-footer{
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.dialogbox-component .dialogbox .btn-in-dialogbox{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border:none;
+    color: purple;
+    font-weight: 500;
+    font-size: 0.9rem;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+
+
